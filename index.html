@@ -309,4 +309,20 @@ track.innerHTML += track.innerHTML;
 </script>
 
 
+<script>
+document.querySelectorAll('.navbar-collapse .nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+
+        const menu = document.querySelector('.navbar-collapse');
+        const bsCollapse = bootstrap.Collapse.getInstance(menu);
+
+        if (bsCollapse) {
+            bsCollapse.hide();
+        }
+
+    });
+});
+</script>
+
+
 </html>
