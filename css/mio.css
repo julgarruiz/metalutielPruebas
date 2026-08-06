@@ -1601,6 +1601,27 @@ footer{
 
 
 /*==========================================================
+    BOTÓN instagram
+==========================================================*/
+
+.btn-instagram {
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-instagram:hover {
+    background: linear-gradient(45deg, #e76f00, #c2185b, #6a1b9a, #3949ab);
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,.25);
+}
+
+
+
+
+/*==========================================================
     BOTÓN WHATSAPP
 ==========================================================*/
 
