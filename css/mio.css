@@ -1600,6 +1600,37 @@ footer{
 }
 
 
+/* ================================
+   EMPRESA ASOCIADA
+   ================================ */
+
+.empresa-asociada {
+    background: #eef1f5;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+.empresa-asociada .container {
+    text-align: center;
+}
+
+.empresa-titulo {
+    color: #1b2a41;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.femeval-logo {
+    display: block !important;
+    width: 180px !important;
+    max-width: 180px !important;
+    height: auto !important;
+    margin: 0 auto !important;
+}
+
+
 /*==========================================================
     BOTÓN instagram
 ==========================================================*/
